@@ -1,4 +1,4 @@
-},
+{
   "deploy": {
     "startCommand": "uvicorn messages:app.",
     "healthcheckPath": "/health",
