@@ -1,0 +1,13 @@
+[build]
+builder = "RAILPACK"
+buildEnvironment = "V3"
+
+[deploy]
+runtime = "V2"
+numReplicas = 1
+startCommand = "uv run fastapi main.py"
+sleepApplication = false
+useLegacyStacker = false
+ipv6EgressEnabled = true
+multiRegionConfig = {"sfo":{"numReplicas":1}}
+restartPolicyType = "NEVER"
