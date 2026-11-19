@@ -9,5 +9,5 @@ startCommand = "uv run fastapi main.py"
 sleepApplication = false
 useLegacyStacker = false
 ipv6EgressEnabled = true
-multiRegionConfig = {"sfo":{"numReplicas":1}}
+multiRegionConfig = {"sfo":{"numReplicas"=1}}
 restartPolicyType = "NEVER"
