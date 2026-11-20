@@ -11,7 +11,7 @@ app.add_middleware(
     allow_origins=['*'],
     allow_headers=["*"],
     allow_methods=["*"],
-    allow_credentials=True
+    allow_credentials=False
 )
 class Item(BaseModel):
     Title: str
